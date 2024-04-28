@@ -1,0 +1,208 @@
+/*********************************************************/
+.backgr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #1c92d2;
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+    background: linear-gradient(to right, #f2fcfe, #1c92d2);
+    color: #232526;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(16, 82, 136, 0.938);
+    height: 50px;
+    width: 100%;
+
+    h1 {
+        
+    }
+}
+/**********************IMAGEN LOGOTIPO GRANDE***********************************/
+.contimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    padding: 0;
+    margin: 0px 0px 10px;
+
+    img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        width: 800px;
+        padding: 0;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0px;
+        position: absolute;
+    }
+}
+/*************************BARRA TODOS TENEMOS UN ESTILO********************************/
+.barram {
+    div {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        margin-bottom: 50px;
+        font-size: 20px;
+        margin: 0 auto;
+        background: #232526;
+        background: -webkit-linear-gradient(to right, #414345, #232526);
+        background: linear-gradient(to right, #414345, #232526);
+        color: white;
+        border-radius: 30px;
+        padding: 5px 5px;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.384);
+
+        h2 {}
+    }
+}
+/********************TARJETAS*************************************/
+.contenedorimg {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative; 
+    .tarjeta {
+        border: solid 4px;
+        border-color: #1c92d2;
+        border-radius: 10px;
+        width: 400px;
+        height: 600px;
+        text-align: center;
+        margin: 20px;
+
+        img  { 
+            height: 500px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+                &:hover{
+                    transform: scale(1.1);
+                }
+        }
+
+        br { 
+
+        }
+
+        a { 
+            background: #232526;
+            background: -webkit-linear-gradient(to right, #414345, #232526);
+            background: linear-gradient(to right, #414345, #232526);
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+                &:hover{
+                    transform: scale(1.2);
+                }
+
+        }
+
+    }
+
+}
+/***********************BARRA GALERIA**********************************/
+.contenedorcert{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+    div{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 20px;
+        margin: 0 auto;
+        background: #232526;
+        background: -webkit-linear-gradient(to right, #414345, #232526);
+        background: linear-gradient(to right, #414345, #232526);
+        color: white;
+        border-radius: 30px;
+        padding: 5px 5px;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.384);
+        img{
+            height: 40px;
+            width: 50px;
+            margin-right: 30px;
+            margin-top: 5px;
+        }
+        h2{
+    
+        }
+    }
+
+}
+
+/************************GALERIA GRID*********************************/
+
+.grid-galeria{
+/** width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 2fr));
+    grid-auto-rows: 300px;
+    gap: 15px;*/
+
+    min-height:  100vh;
+    width: auto;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(350px, 1000px), 3fr));
+    gap: 10px;
+
+
+        .grind-items{
+            border: solid 4px;
+            border-color: #1c92d2;
+            border-radius: 10px;
+            position: relative;
+            .img1{
+                grid-row: span 1;
+            }
+            .img2{
+                grid-row: span 2;
+            }
+            .img4{
+                grid-row: span 2;
+            }
+            .img6{
+                grid-row: span 2;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                box-shadow: 11px 11px 30px 0px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 11px 11px 30px 0px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 11px 11px 30px 0px rgba(0, 0, 0, 0.75);
+            }
+            h3{
+                position: absolute;
+                bottom: 0;
+                color: white;
+                background-color: rgba(0, 0, 0, 0.336);
+                width: 100%;
+            }
+        }
+
+
+
+
+}
+/************************************************************/

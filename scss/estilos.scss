@@ -1,0 +1,57 @@
+@import "./base/generales";
+@import "./base/operaciones";
+@import "./components/header";
+@import "./components/main";
+@import "./components/footer";
+@import "./base/media-querys";
+a:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    border: #ffffff86 solid 2px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(16, 82, 136, 0.938);
+    font-size: 30PX;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    text-align: justify;
+}
+.logo{
+    img{
+        height: 100px;
+        margin-right: 0;
+        background: #1c92d2;
+        background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+        background: linear-gradient(to right, #f2fcfe, #1c92d22d);
+        border-radius: 30px;
+    }
+}
+.logo:hover{
+    img{
+        transform: scale(1.2);
+    }
+}
+.usuario{
+    height: 65px;
+    margin-left: 25%;
+    margin-right: 0;
+}
+.usuario:hover {
+    transform: scale(1.2);
+}
+
+.carrito{
+    display: flex;
+    height: 65px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.carrito:hover {
+    transform: scale(1.2);
+}
+.iconosnav{
+    display: flex;
+    margin-left: auto;
+    position: sticky;
+}

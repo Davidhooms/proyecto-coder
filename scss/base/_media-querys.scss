@@ -1,0 +1,358 @@
+/********************MEDIA QUERYS NAV**************************************/
+
+@media screen and (min-width: 900px) and (max-width: 1161px) {
+    header nav div ul li {
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 999px) {
+    header nav div ul li {
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 600px) {
+    header nav div ul li {
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    a img.usuario {
+        object-fit: contain;
+        margin: 0px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    a img.carrito {
+        object-fit: contain;
+        margin: 0px;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 600px) {
+    a img.usuario {
+        margin: 0px;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 600px) {
+    a img.carrito {
+        margin: 0px;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 600px) {
+    header nav div ul li a:hover {
+        color: rgb(255, 255, 255);
+        transform: scale(1.1);
+        border: #ffffff86 solid 0.5px;
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: 0 8px 15px rgba(16, 82, 136, 0.938);
+        font-size: 5PX;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 600px) {
+    header nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 5px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+/********************* MEDIA QUERY BARRA 1 ************************************/
+
+
+@media screen and (min-width: 600px) and (max-width: 713PX) {
+    .backgr {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background: #1c92d2;
+        background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+        background: linear-gradient(to right, #f2fcfe, #1c92d2);
+        color: #232526;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 8px 15px rgba(16, 82, 136, 0.938);
+        font-size: 25PX;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        text-align: justify;
+        height: 50px;
+        width: 100%;
+
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 600PX) {
+    .backgr {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background: #1c92d2;
+        background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+        background: linear-gradient(to right, #f2fcfe, #1c92d2);
+        color: #232526;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 8px 15px rgba(16, 82, 136, 0.938);
+        font-size: 10PX;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        text-align: justify;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+
+    }
+}
+/********************* MEDIA QUERY IMAGEN GRANDE LOGO ************************************/
+@media screen and (min-width: 450px) and (max-width: 641PX) {
+
+    .contimg img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 320px;
+        width: auto;
+        padding: 0;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0px;
+        position: absolute;
+    }
+
+}
+@media screen and (min-width: 350px) and (max-width: 450PX) {
+
+    .contimg img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+        width: auto;
+        padding: 0;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0px;
+        position: absolute;
+    }
+
+}
+/********************* MEDIA QUERY  BARRA 2 ************************************/
+
+
+@media screen and (min-width: 600px) and (max-width: 713PX) {
+    .barram div h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        margin-bottom: 50px;
+        font-size: 20px;
+        margin: 0 auto;
+        background: #232526;
+        background: -webkit-linear-gradient(to right, #414345, #232526);
+        background: linear-gradient(to right, #414345, #232526);
+        color: white;
+        border-radius: 30px;
+        padding: 5px 5px;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.384);
+    }
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 600PX) {
+    .barram div h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        margin-bottom: 50px;
+        font-size: 20px;
+        margin: 0 auto;
+        background: #232526;
+        background: -webkit-linear-gradient(to right, #414345, #232526);
+        background: linear-gradient(to right, #414345, #232526);
+        color: white;
+        border-radius: 30px;
+        padding: 5px 5px;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.384);
+    }
+
+}
+
+/********************* MEDIA QUERY  GRID ************************************/
+
+@media screen and (min-width: 900px) and (max-width: 1098px) {
+    .contenedorimg {
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px;
+    }
+
+}
+@media screen and (min-width: 350px) and (max-width: 900px) {
+    .contenedorimg {
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px;
+    }
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 900px) {
+   .contenedorimg div.tarjeta {
+        margin: 10px;
+        width:auto
+    }
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1098px) {
+    .contenedorimg2 div {
+        display: inline-block;
+        align-items: center;
+        margin: 10px;
+        width: auto;
+    }
+
+}
+@media screen and (min-width: 350px) and (max-width: 900px) {
+    .contenedorimg2 div {
+        display: inline-block;
+        align-items: center;
+        margin: 10px;
+        padding: 0;
+        width: auto;
+        height: 300PX;
+    }
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1098px) {
+    .contenedorimg2 div img{
+        height: 500px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: auto;
+    }
+    }
+    @media screen and (min-width: 350px) and (max-width: 900px) {
+        .contenedorimg2 div img{
+            height: 300px;
+            width: auto;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        }
+
+        @media screen and (min-width: 350px) and (max-width: 900px) {
+            .grid-galeria{
+                height: auto;
+                width: auto;
+                margin: 0px;
+                position:static;
+            }
+            }
+/**************MEDIA QUERYS FOOTER ***********************/
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+    footer div h2 {
+        color: white;
+        margin-left: 5px;
+        font-size: 15px;
+    
+    }
+    }
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+    footer div p {
+        color: white;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+    }
+
+    @media screen and (min-width: 600px) and (max-width: 1000px) {
+        .continfo1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 0;
+            margin: 10px;
+        }
+        }
+        @media screen and (min-width: 350px) and (max-width: 600px) {
+            .continfo1{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                padding: 0;
+                margin: 10px;
+            }
+            }
+        @media screen and (min-width: 600px) and (max-width: 1000px) {
+            footer div h2 {
+                color: white;
+                margin-left: 5px;
+                font-size: 15px;
+                margin-bottom: 0px;
+            
+            }
+            }
+        @media screen and (min-width: 600px) and (max-width: 1000px) {
+            footer div p {
+                color: white;
+                margin-left: 5px;
+                margin-bottom: 0px;
+                font-size: 10px;
+            }
+            }
+            @media screen and (min-width: 350px) and (max-width: 600px) {
+                footer div h2 {
+                    color: white;
+                    margin-left: 5px;
+                    font-size: 15px;
+                    margin-bottom: 0px;
+                
+                }
+                }
+            @media screen and (min-width: 350px) and (max-width: 600px) {
+                footer div p {
+                    color: white;
+                    margin-left: 5px;
+                    margin-bottom: 0px;
+                    font-size: 10px;
+                }
+                }
+            @media screen and (min-width: 350px) and (max-width: 600px) {
+                .contenedorcert div h2{
+                    font-size: 20px;
+                }
+                    }
+                    @media screen and (min-width: 350px) and (max-width: 600px) {
+                        .grind-items img{
+                            height: 10px;
+                            width: 50%;
+                        }
+}
