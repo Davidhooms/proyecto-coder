@@ -232,6 +232,12 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
+  footer footer .test {
+    position: absolute;
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #414345, #232526);
+    width: 100%; }
   footer .continfo1 {
     display: flex;
     align-content: center;
