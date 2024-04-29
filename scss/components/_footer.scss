@@ -1,6 +1,6 @@
 /***********************FOOTER**********************************/
 footer{
-    margin-top: 20px;
+    margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 20px;
     background: #232526;
@@ -16,16 +16,12 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    footer .test {
+    .test {
         position: absolute;
         background: #232526;
         background: -webkit-linear-gradient(to right, #414345, #232526);
         background: linear-gradient(to right, #414345, #232526);  
         width: 100%;
-<<<<<<< HEAD
-=======
-        border: 10px black solid;
->>>>>>> 70c3d4c579c96c40d08ab91b63fd28731db7b4f9
     }
     .continfo1{
         display: flex;
@@ -57,6 +53,7 @@ footer{
         align-items: center;
         justify-content: center;
         width: 100%;
+        margin-bottom: 20px;
         div{
             a{
                 img{

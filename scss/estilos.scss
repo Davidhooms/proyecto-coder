@@ -4,19 +4,7 @@
 @import "./components/main";
 @import "./components/footer";
 @import "./base/media-querys";
-a:hover{
-    color: rgb(255, 255, 255);
-    transform: scale(1.1);
-    border: #ffffff86 solid 2px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 8px 15px rgba(16, 82, 136, 0.938);
-    font-size: 30PX;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-    text-align: justify;
-}
+
 .logo{
     img{
         height: 100px;
