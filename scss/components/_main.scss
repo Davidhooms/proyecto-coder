@@ -40,6 +40,7 @@
         background-repeat: no-repeat;
         margin: 0px;
         position: absolute;
+        
     }
 }
 
@@ -80,6 +81,7 @@
         height: 600px;
         text-align: center;
         margin: 20px;
+        
 
         img {
             width: 400px;
@@ -90,6 +92,9 @@
 
             &:hover {
                 transform: scale(1.1);
+                transform: translatey(-40px);
+                transition: 300ms;
+                filter: none;
             }
         }
 
@@ -106,6 +111,8 @@
 
             &:hover {
                 transform: scale(1.2);
+                background: #007bff;
+                transition: 300ms;
             }
 
         }
@@ -120,7 +127,7 @@
     margin-bottom: 20px;
     display: inline-block;
     width: 100%;
-
+    
     div {
         display: flex;
         justify-content: center;
@@ -193,6 +200,14 @@
             box-shadow: 11px 11px 30px 0px rgba(0, 0, 0, 0.75);
             -webkit-box-shadow: 11px 11px 30px 0px rgba(0, 0, 0, 0.75);
             -moz-box-shadow: 11px 11px 30px 0px rgba(0, 0, 0, 0.75);
+        
+            &:hover{
+                transform: scale(1.2);
+                transition: 300ms;
+                transform: translatey(-40px);
+                filter: none;
+            }
+
         }
 
         h3 {
@@ -379,7 +394,7 @@
 
     .tarjetap {
         width: 400px;
-        height: 600px;
+        height: 500px;
         text-align: center;
         margin: 20px;
         background-color: #232526;
@@ -394,7 +409,12 @@
             border-radius: $bordes-rad;
 
             &:hover {
-                transform: scale(1.1);
+                transform: scale(1.3);
+                transform: translatey(-40px);
+                transition: 300ms;
+                filter: none;
+                background-color: #06a2eb;
+
             }
         }
 
@@ -408,7 +428,7 @@
             font-size: 16px;
 
             &:hover {
-                transform: scale(1.1);
+                background-color: #0056b3;
             }
 
         }
@@ -424,6 +444,7 @@
             .info{
                 background: #06a3ebe8;
                 width: 100%;
+                margin-top: 5px;
                 p{
                     color: #414345;
                     font-size: 20px;

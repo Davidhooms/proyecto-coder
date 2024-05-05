@@ -37,7 +37,8 @@ header {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: italic;
-    text-align: justify; }
+    text-align: justify;
+    transition: 300ms; }
   header nav {
     display: flex;
     align-items: center;
@@ -144,7 +145,10 @@ header {
       margin-bottom: 20px;
       border-radius: 10px; }
       .contenedorimg .tarjeta img:hover {
-        transform: scale(1.1); }
+        transform: scale(1.1);
+        transform: translatey(-40px);
+        transition: 300ms;
+        filter: none; }
     .contenedorimg .tarjeta a {
       background: #232526;
       background: -webkit-linear-gradient(to right, #414345, #232526);
@@ -154,7 +158,9 @@ header {
       padding: 10px;
       margin-top: 20px; }
       .contenedorimg .tarjeta a:hover {
-        transform: scale(1.2); }
+        transform: scale(1.2);
+        background: #007bff;
+        transition: 300ms; }
 
 /***********************BARRA GALERIA**********************************/
 .contenedorbarra {
@@ -213,6 +219,11 @@ header {
       box-shadow: 11px 11px 30px 0px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 11px 11px 30px 0px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 11px 11px 30px 0px rgba(0, 0, 0, 0.75); }
+      .grid-galeria .grind-items img:hover {
+        transform: scale(1.2);
+        transition: 300ms;
+        transform: translatey(-40px);
+        filter: none; }
     .grid-galeria .grind-items h3 {
       position: absolute;
       bottom: 0;
@@ -350,7 +361,7 @@ header {
   position: relative; }
   .contenedorproducto .tarjetap {
     width: 400px;
-    height: 600px;
+    height: 500px;
     text-align: center;
     margin: 20px;
     background-color: #232526;
@@ -363,7 +374,11 @@ header {
       margin-bottom: 70px;
       border-radius: 10px; }
       .contenedorproducto .tarjetap img:hover {
-        transform: scale(1.1); }
+        transform: scale(1.3);
+        transform: translatey(-40px);
+        transition: 300ms;
+        filter: none;
+        background-color: #06a2eb; }
     .contenedorproducto .tarjetap a {
       width: 100%;
       background: #1c92d2;
@@ -373,7 +388,7 @@ header {
       color: white;
       font-size: 16px; }
       .contenedorproducto .tarjetap a:hover {
-        transform: scale(1.1); }
+        background-color: #0056b3; }
     .contenedorproducto .tarjetap .cont-desc {
       display: inline-block;
       align-items: center;
@@ -385,7 +400,8 @@ header {
       border-radius: 10px; }
       .contenedorproducto .tarjetap .cont-desc .info {
         background: #06a3ebe8;
-        width: 100%; }
+        width: 100%;
+        margin-top: 5px; }
         .contenedorproducto .tarjetap .cont-desc .info p {
           color: #414345;
           font-size: 20px;
@@ -1333,7 +1349,9 @@ footer {
   border-radius: 30px; }
 
 .logo:hover img {
-  transform: scale(1.2); }
+  transform: scale(1.1);
+  transition: 300ms;
+  filter: none; }
 
 .usuario {
   height: 65px;
