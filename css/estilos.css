@@ -1152,6 +1152,7 @@ footer {
     padding: 10px;
     margin-top: 20px;
     margin-left: 10px;
+    margin-bottom: 20px;
     float: initial;
     display: flex;
     justify-content: center;
@@ -1162,6 +1163,11 @@ footer {
     font-weight: 700;
     font-style: italic;
     border-radius: 10px; } }
+
+/****BARRA GALERIA*************************/
+@media screen and (min-width: 350px) and (max-width: 600PX) {
+  .contenedorbarra div {
+    margin-top: 40px; } }
 
 /**************MEDIA QUERYS FOOTER ***********************/
 @media screen and (min-width: 1000px) and (max-width: 1500px) {
