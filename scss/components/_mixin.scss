@@ -1,0 +1,8 @@
+@mixin border($radio){
+    border-radius: $radio;
+}
+
+.logo img{
+    @include border(30px);
+}
+

@@ -68,10 +68,21 @@
 
     }
 }
+@media screen and (min-width: 350px) and (max-width: 600px) {
+    .logo img {
+        width: 150px;
+        height: 80px;
+        margin-left: 20px;
+        background: #1c92d2;
+        background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+        background: linear-gradient(to right, #f2fcfe, #1c92d22d);
+        border-radius: 30px; 
+    }
+}
 /********************* MEDIA QUERY BARRA 1 ************************************/
 
 
-@media screen and (min-width: 600px) and (max-width: 713PX) {
+@media screen and (min-width: 600px) and (max-width: 800PX) {
     .backgr {
         display: flex;
         align-items: center;
@@ -85,14 +96,7 @@
         padding: 10px;
         border-radius: 10px;
         box-shadow: 0 8px 15px rgba(16, 82, 136, 0.938);
-        font-size: 25PX;
-        font-family: "Poppins", sans-serif;
-        font-weight: 500;
-        font-style: italic;
-        text-align: justify;
-        height: 50px;
-        width: 100%;
-
+        height: 100px;
     }
 }
 
@@ -110,7 +114,37 @@
         padding: 10px;
         border-radius: 10px;
         box-shadow: 0 8px 15px rgba(16, 82, 136, 0.938);
-        font-size: 10PX;
+     }
+}
+@media screen and (min-width: 1000px) and (max-width: 1980PX) {
+    .backgr h1 {
+        font-size: 40px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        text-align: justify;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1000PX) {
+    .backgr h1 {
+        font-size: 35px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        text-align: justify;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 600PX) {
+    .backgr h1 {
+        font-size: 25px;
         font-family: "Poppins", sans-serif;
         font-weight: 500;
         font-style: italic;
@@ -198,92 +232,244 @@
 }
 
 /********************* MEDIA QUERY TARJETAS***********************************/
-@media screen and (min-width: 350px) and (max-width: 450px) {
-.contenedorimg .tarjeta img{
-    width: 100%;
-    height: 500px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-}
 
 
 
-/***********************************************/
 @media screen and (min-width: 900px) and (max-width: 1098px) {
     .contenedorimg {
-        display: inline-block;
-        justify-content: space-between;
+        display: flex;
+        justify-content: center;
         align-items: center;
-        margin: 20px;
+        margin: 0px 20px 0px 20px;
     }
 
 }
-@media screen and (min-width: 350px) and (max-width: 900px) {
+@media screen and (min-width: 600px) and (max-width: 900px) {
     .contenedorimg {
-        display: inline-block;
-        justify-content: space-between;
+        display: flex;
+        justify-content: center;
         align-items: center;
         margin: 0px;
     }
 
 }
 
-@media screen and (min-width: 350px) and (max-width: 900px) {
-.contenedorimg div.tarjeta {
-        margin: 10px;
-        width:auto
-    }
-
-}
-
-@media screen and (min-width: 900px) and (max-width: 1098px) {
-    .contenedorimg2 div {
-        display: inline-block;
+@media screen and (min-width: 350px) and (max-width: 600px) {
+    .contenedorimg {
+        display: flex;
+        justify-content: center;
         align-items: center;
-        margin: 10px;
-        width: auto;
-    }
-
-}
-@media screen and (min-width: 350px) and (max-width: 900px) {
-    .contenedorimg2 div {
-        display: inline-block;
-        align-items: center;
-        margin: 10px;
-        padding: 0;
-        width: auto;
-        height: 300PX;
+        margin: 0px;
     }
 
 }
 
+/***media caja tarjeta , imagen, texto **/
 @media screen and (min-width: 900px) and (max-width: 1098px) {
-    .contenedorimg2 div img{
+    .contenedorimg .tarjeta {
+        width: 500px;
         height: 500px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        width: auto;
+        text-align: center;
+        margin: 20px;
     }
-    }
-    @media screen and (min-width: 350px) and (max-width: 900px) {
-        .contenedorimg2 div img{
-            height: 300px;
-            width: auto;
-            margin-top: 10px;
-            margin-bottom: 20px;
-        }
-        }
 
-        @media screen and (min-width: 350px) and (max-width: 900px) {
-            .grid-galeria{
-                height: auto;
-                width: auto;
-                margin: 0px;
-                position:static;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1098px) {
+    .contenedorimg .tarjeta img {
+        width: 100%;
+        height: 400px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px; 
+        }
+    }
+
+    @media screen and (min-width: 900px) and (max-width: 1098px) {
+        .contenedorimg .tarjeta img:hover {
+            width: 100%;
+            height: 400px;
+            margin-top: 10px;
+            transform: scale(1.1);
+            transition: 300ms;
+            margin-bottom: 50px;
+            filter: none;
+            object-fit: cover; }
+        }
+@media screen and (min-width: 900px) and (max-width: 1098px) {
+        .contenedorimg .tarjeta img:hover {
+            width: 100%;
+            height: 400px;
+            margin-top: 10px;
+            transform: scale(1.1);
+            transition: 300ms;
+            margin-bottom: 50px;
+            filter: none;
+            object-fit: cover; }
+        }
+@media screen and (min-width: 900px) and (max-width: 1098px) {
+    .contenedorimg .tarjeta a {
+        background: #232526;
+        background: -webkit-linear-gradient(to right, #414345, #232526);
+        background: linear-gradient(to right, #414345, #232526);
+        text-decoration: none;
+        width: auto;
+        color: white;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 10px;
+        float: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        border-radius: 10px; }
             }
+
+/****/
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .contenedorimg .tarjeta {
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        margin: 20px;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .contenedorimg .tarjeta img {
+        width: 100%;
+        height: 400px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px; 
+        }
+    }
+
+    @media screen and (min-width: 600px) and (max-width: 900px) {
+        .contenedorimg .tarjeta img:hover {
+            width: 100%;
+            height: 400px;
+            margin-top: 10px;
+            transform: scale(1.1);
+            transition: 300ms;
+            margin-bottom: 50px;
+            filter: none;
+            object-fit: cover; }
+        }
+@media screen and (min-width: 600px) and (max-width: 900px) {
+        .contenedorimg .tarjeta img:hover {
+            width: 100%;
+            height: 400px;
+            margin-top: 10px;
+            transform: scale(1.1);
+            transition: 300ms;
+            margin-bottom: 50px;
+            filter: none;
+            object-fit: cover; }
+        }
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .contenedorimg .tarjeta a {
+        background: #232526;
+        background: -webkit-linear-gradient(to right, #414345, #232526);
+        background: linear-gradient(to right, #414345, #232526);
+        text-decoration: none;
+        width: auto;
+        color: white;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 10px;
+        float: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        border-radius: 10px; }
             }
+/****/
+@media screen and (min-width: 350px) and (max-width: 600px) {
+    .contenedorimg .tarjeta {
+        width: 450px;
+        height: 450px;
+        text-align: center;
+        margin: 20px;
+    }
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 600px) {
+    .contenedorimg .tarjeta img {
+        width: 100%;
+        height: 400px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px; 
+        }
+    }
+
+    @media screen and (min-width: 350px) and (max-width: 600px) {
+        .contenedorimg .tarjeta img:hover {
+            width: 100%;
+            height: 400px;
+            margin-top: 10px;
+            transform: scale(1.1);
+            transition: 300ms;
+            margin-bottom: 50px;
+            filter: none;
+            object-fit: cover; }
+        }
+@media screen and (min-width: 350px) and (max-width: 600px) {
+        .contenedorimg .tarjeta img:hover {
+            width: 100%;
+            height: 400px;
+            margin-top: 10px;
+            transform: scale(1.1);
+            transition: 300ms;
+            margin-bottom: 50px;
+            filter: none;
+            object-fit: cover; }
+        }
+@media screen and (min-width: 350px) and (max-width: 600px) {
+    .contenedorimg .tarjeta a {
+        background: #232526;
+        background: -webkit-linear-gradient(to right, #414345, #232526);
+        background: linear-gradient(to right, #414345, #232526);
+        text-decoration: none;
+        width: auto;
+        color: white;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 10px;
+        float: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        border-radius: 10px; }
+            }
+
 /**************MEDIA QUERYS FOOTER ***********************/
 @media screen and (min-width: 1000px) and (max-width: 1500px) {
     footer div h2 {
@@ -440,11 +626,12 @@
 /******************RECONOCIMIENTOS****************/
 @media screen and (min-width: 800px) and (max-width: 1250px) {
     .contereconocimientos {
-        display: inline-block;
+        display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
         margin: 10px;
+        flex-wrap: wrap;
     }
 }
 @media screen and (min-width: 800px) and (max-width: 1250px) {
@@ -476,11 +663,12 @@
 /**/
 @media screen and (min-width: 600px) and (max-width: 800px) {
     .contereconocimientos {
-        display: inline-block;
+        display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
         margin: 10px;
+        flex-wrap: wrap;
     }
 }
 @media screen and (min-width: 600px) and (max-width: 800px) {
@@ -489,11 +677,11 @@
         margin-right: 20px;
 }
 }
-@media screen and (min-width: 600px) and (max-width: 800px){
+@media screen and (min-width: 600px) and (max-width: 800px) {
 
     .contereconocimientos .imgrec img{
     width: 100%;
-    height: 250px;
+    height: 350px;
     border-radius: 10px;
     margin-top: 10px;
 }
@@ -503,7 +691,7 @@
     .contereconocimientos .imgrec p{
         margin: 0px;
         text-align: center;
-        font-size: 20px;
+        font-size: 30px;
         background-color: rgba(0, 0, 0, 0.336);
         width: 100%;
         border-radius: 10px;
@@ -512,11 +700,12 @@
 /****/
 @media screen and (min-width: 350px) and (max-width: 600px) {
     .contereconocimientos {
-        display: inline-block;
+        display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
         margin: 10px;
+        flex-wrap: wrap;
     }
 }
 @media screen and (min-width: 350px) and (max-width: 600px) {
@@ -525,24 +714,26 @@
         margin-right: 20px;
 }
 }
-@media screen and (min-width: 350px) and (max-width: 600px){
+@media screen and (min-width: 350px) and (max-width: 600px) {
 
     .contereconocimientos .imgrec img{
     width: 100%;
-    height: 150px;
+    height: 200px;
     border-radius: 10px;
     margin-top: 10px;
+    object-fit:contain;
 }
 }
-@media screen and (min-width: 350px) and (max-width: 600px){
+@media screen and (min-width: 350px) and (max-width: 600px) {
 
     .contereconocimientos .imgrec p{
         margin: 0px;
         text-align: center;
-        font-size: 15px;
+        font-size: 20px;
         background-color: rgba(0, 0, 0, 0.336);
         width: 100%;
         border-radius: 10px;
+        object-fit:contain;
 }
 }
 
